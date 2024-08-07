@@ -1,0 +1,36 @@
+/* src/styles/Home.module.css */
+.container {
+  padding: 2px;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profileImage {
+  border-radius: 10px;
+}
+
+.profileText {
+  max-width: 600px;
+}
